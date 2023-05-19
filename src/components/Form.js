@@ -1,19 +1,3 @@
-// const Form = () => {
-
-//     return (
-//         <main>
-//             <h1>Form</h1>
-//         </main>
-//     )
-// }
-
-// export default Form
-
-
-
-// YOU WILL BE INSTRUCTED WHEN YOU SHOULD 
-// UNCOMMENT THIS CODE
-
 import {useState, useContext} from 'react'
 import axios from 'axios'
 import {useNavigate} from 'react-router-dom'
