@@ -38,16 +38,13 @@ app.put("/posts/:id", isAuthenticated, editPost);
 app.delete("/posts/:id", isAuthenticated, deletePost);
 
 // the force: true is for development -- it DROPS tables!!!
-sequelize
-  .sync({ force: true })
-  // sequelize.sync()
+// sequelize
+//   .sync({ force: true })
+
+sequelize.sync()
   .then(() => {
     app.listen(SERVER_PORT, () =>
       console.log(`db sync successful & server running on port ${SERVER_PORT}`)
     );
   })
   .catch((err) => console.log(err));
-
-// app.listen(SERVER_PORT, () =>
-//   console.log(`db sync successful & server running on port ${SERVER_PORT}`)
-// );

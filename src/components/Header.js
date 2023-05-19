@@ -16,7 +16,7 @@ const Header = () => {
     <header className="header flex-row">
       <div className="flex-row">
         <img src={logo} alt="dm-logo" className="logo" />
-        <h2>Social Mountain</h2>
+        <h2 id="head-h2">Social Mountain</h2>
       </div>
       <nav>
         {authCtx.token ? (

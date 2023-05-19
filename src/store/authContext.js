@@ -51,6 +51,7 @@ export const AuthContextProvider = (props) => {
   const [userId, setUserId] = useState(initialId);
 
   const logout = useCallback(() => {
+    console.log("hit logout")
     setToken(null);
     setUserId(null);
     localStorage.removeItem("token");
@@ -65,6 +66,7 @@ export const AuthContextProvider = (props) => {
   const login = (token, exp, userId) => {
     setToken(token);
     setUserId(userId);
+    console.log("hit login")
 
     localStorage.setItem("token", token);
     localStorage.setItem("exp", exp);
@@ -76,6 +78,8 @@ export const AuthContextProvider = (props) => {
   };
 
   useEffect(() => {
+
+    console.log("hit us effect")
     if (localData) {
       logoutTimer = setTimeout(logout, localData.duration);
     }

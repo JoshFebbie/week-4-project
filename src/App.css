@@ -3,6 +3,356 @@
    License: none (public domain)
 */
 
+/* html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+} */
+/* HTML5 display-role reset for older browsers */
+/* article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.logo {
+  background-color: #fa4b11 ;
+  transition: all 0.55s ease-in-out;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  background-color: #19b6fa;
+}
+
+#head-h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color:#19b6fa !important;
+  text-shadow: 2px 2px 2px #000000;
+} */
+
+/* added styles */
+
+/* global */
+
+/* ,
+h1,
+h2,
+h3,
+a,
+p,
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+
+/* h4 {
+  font-size: 1.25;
+  font-style: italic;
+  color: #f57145;
+  padding: 10px 0;
+} */
+
+/* a {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #e94a0b;
+}
+
+.app {
+  background-color: #232323;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+main {
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* header */
+
+/* .header {
+  height: 80px;
+  background-color: #171717;
+  color: #f0f0f0;
+  padding: 0 25px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.main-nav li {
+  padding: 0 10px;
+}
+
+.logout-btn {
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1rem;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logout-btn:hover {
+  color: #f64408;
+} */
+
+/* form */
+
+/* .form {
+  border: 3px solid #19b6fa;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 25px;
+  box-shadow: 5px 5px 20px #171717;
+}
+
+.form-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #f57145;
+  color: #f0f0f0;
+  padding-top: 15px;
+}
+
+.form-btn {
+  border: 2px solid #fa4b11;
+  border-radius: 5px;
+  color: #f57145;
+  background: transparent;
+  padding: 10px 20px;
+  transition: 0.5s;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.form-btn:hover {
+  background-color:#dc4e01;
+  color: #ffffff;
+  transform: translateY(-3px);
+  border: 2px solid #19b6fa;
+} */
+
+/* auth */
+
+/* .auth-form {
+  width: 300px;
+  height: 250px;
+  padding-top: 30px;
+  gap: 15px;
+}
+
+.auth-input {
+  width: 200px;
+}
+
+.auth-msg {
+  margin-bottom: 15px;
+} */
+
+/* add post */
+
+/* .add-post-form {
+  width: 400px;
+  height: 500px;
+}
+
+.status-container {
+  width: 200px;
+}
+
+.textarea {
+  border: 1px solid #f57145;
+  border-radius: 5px;
+  height: 150px;
+}
+
+.radio-btn {
+  display: flex;
+  align-items: center;
+}
+
+.add-post-input {
+  width: 300px;
+} */
+
+/* posts */
+
+/* .post-card {
+  width: 500px;
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  margin: 25px;
+  padding: 15px;
+} */
+
+
+*/Original CSS*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
